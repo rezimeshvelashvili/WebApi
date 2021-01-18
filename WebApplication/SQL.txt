@@ -1,0 +1,8 @@
+CREATE Table Users
+(
+    Id SERIAL ,
+    UserName varchar,
+    Score int,
+    UploadDate Date,
+    PRIMARY KEY (Id)
+);

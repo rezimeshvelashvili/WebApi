@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rezi/RiderProjects/WebApplication/WebApplication/WebApplication.csproj": {}
+  },
+  "projects": {
+    "/home/rezi/RiderProjects/WebApplication/WebApplication/WebApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rezi/RiderProjects/WebApplication/WebApplication/WebApplication.csproj",
+        "projectName": "WebApplication",
+        "projectPath": "/home/rezi/RiderProjects/WebApplication/WebApplication/WebApplication.csproj",
+        "packagesPath": "/home/rezi/.nuget/packages/",
+        "outputPath": "/home/rezi/RiderProjects/WebApplication/WebApplication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rezi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Extensions.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "DateTimeExtensions": {
+              "target": "Package",
+              "version": "[5.4.3, )"
+            },
+            "ServiceStack.Redis": {
+              "target": "Package",
+              "version": "[5.10.4, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
